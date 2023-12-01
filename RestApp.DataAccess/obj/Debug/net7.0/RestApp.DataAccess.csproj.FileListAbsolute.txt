@@ -1,0 +1,17 @@
+D:\source\repos\RestApp\RestApp.DataAccess\bin\Debug\net7.0\RestApp.DataAccess.deps.json
+D:\source\repos\RestApp\RestApp.DataAccess\bin\Debug\net7.0\RestApp.DataAccess.runtimeconfig.json
+D:\source\repos\RestApp\RestApp.DataAccess\bin\Debug\net7.0\RestApp.DataAccess.dll
+D:\source\repos\RestApp\RestApp.DataAccess\bin\Debug\net7.0\RestApp.DataAccess.pdb
+D:\source\repos\RestApp\RestApp.DataAccess\bin\Debug\net7.0\RestApp.Entities.dll
+D:\source\repos\RestApp\RestApp.DataAccess\bin\Debug\net7.0\RestApp.Entities.pdb
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.csproj.AssemblyReference.cache
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.AssemblyInfoInputs.cache
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.AssemblyInfo.cs
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.csproj.CopyComplete
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.dll
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\refint\RestApp.DataAccess.dll
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.pdb
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\RestApp.DataAccess.genruntimeconfig.cache
+D:\source\repos\RestApp\RestApp.DataAccess\obj\Debug\net7.0\ref\RestApp.DataAccess.dll

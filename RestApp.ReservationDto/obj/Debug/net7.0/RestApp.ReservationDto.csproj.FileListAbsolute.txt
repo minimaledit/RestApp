@@ -1,0 +1,11 @@
+D:\source\repos\RestApp\RestApp.ReservationDto\bin\Debug\net7.0\RestApp.ReservationDto.deps.json
+D:\source\repos\RestApp\RestApp.ReservationDto\bin\Debug\net7.0\RestApp.ReservationDto.dll
+D:\source\repos\RestApp\RestApp.ReservationDto\bin\Debug\net7.0\RestApp.ReservationDto.pdb
+D:\source\repos\RestApp\RestApp.ReservationDto\obj\Debug\net7.0\RestApp.ReservationDto.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\RestApp\RestApp.ReservationDto\obj\Debug\net7.0\RestApp.ReservationDto.AssemblyInfoInputs.cache
+D:\source\repos\RestApp\RestApp.ReservationDto\obj\Debug\net7.0\RestApp.ReservationDto.AssemblyInfo.cs
+D:\source\repos\RestApp\RestApp.ReservationDto\obj\Debug\net7.0\RestApp.ReservationDto.csproj.CoreCompileInputs.cache
+D:\source\repos\RestApp\RestApp.ReservationDto\obj\Debug\net7.0\RestApp.ReservationDto.dll
+D:\source\repos\RestApp\RestApp.ReservationDto\obj\Debug\net7.0\refint\RestApp.ReservationDto.dll
+D:\source\repos\RestApp\RestApp.ReservationDto\obj\Debug\net7.0\RestApp.ReservationDto.pdb
+D:\source\repos\RestApp\RestApp.ReservationDto\obj\Debug\net7.0\ref\RestApp.ReservationDto.dll

@@ -1,0 +1,11 @@
+D:\source\repos\RestApp\RestApp.Entities\bin\Debug\net7.0\RestApp.Entities.deps.json
+D:\source\repos\RestApp\RestApp.Entities\bin\Debug\net7.0\RestApp.Entities.dll
+D:\source\repos\RestApp\RestApp.Entities\bin\Debug\net7.0\RestApp.Entities.pdb
+D:\source\repos\RestApp\RestApp.Entities\obj\Debug\net7.0\RestApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\RestApp\RestApp.Entities\obj\Debug\net7.0\RestApp.Entities.AssemblyInfoInputs.cache
+D:\source\repos\RestApp\RestApp.Entities\obj\Debug\net7.0\RestApp.Entities.AssemblyInfo.cs
+D:\source\repos\RestApp\RestApp.Entities\obj\Debug\net7.0\RestApp.Entities.csproj.CoreCompileInputs.cache
+D:\source\repos\RestApp\RestApp.Entities\obj\Debug\net7.0\RestApp.Entities.dll
+D:\source\repos\RestApp\RestApp.Entities\obj\Debug\net7.0\refint\RestApp.Entities.dll
+D:\source\repos\RestApp\RestApp.Entities\obj\Debug\net7.0\RestApp.Entities.pdb
+D:\source\repos\RestApp\RestApp.Entities\obj\Debug\net7.0\ref\RestApp.Entities.dll

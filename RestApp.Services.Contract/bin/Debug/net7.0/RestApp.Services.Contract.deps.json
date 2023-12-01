@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "RestApp.Services.Contract/1.0.0": {
+        "dependencies": {
+          "RestApp.ReservationDto": "1.0.0"
+        },
+        "runtime": {
+          "RestApp.Services.Contract.dll": {}
+        }
+      },
+      "RestApp.ReservationDto/1.0.0": {
+        "runtime": {
+          "RestApp.ReservationDto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestApp.Services.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestApp.ReservationDto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

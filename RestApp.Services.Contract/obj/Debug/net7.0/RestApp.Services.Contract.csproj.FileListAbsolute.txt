@@ -1,0 +1,15 @@
+D:\source\repos\RestApp\RestApp.Services.Contract\bin\Debug\net7.0\RestApp.Services.Contract.deps.json
+D:\source\repos\RestApp\RestApp.Services.Contract\bin\Debug\net7.0\RestApp.Services.Contract.dll
+D:\source\repos\RestApp\RestApp.Services.Contract\bin\Debug\net7.0\RestApp.Services.Contract.pdb
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\RestApp.Services.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\RestApp.Services.Contract.AssemblyInfoInputs.cache
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\RestApp.Services.Contract.AssemblyInfo.cs
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\RestApp.Services.Contract.csproj.CoreCompileInputs.cache
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\RestApp.Services.Contract.dll
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\refint\RestApp.Services.Contract.dll
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\RestApp.Services.Contract.pdb
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\ref\RestApp.Services.Contract.dll
+D:\source\repos\RestApp\RestApp.Services.Contract\bin\Debug\net7.0\RestApp.ReservationDto.dll
+D:\source\repos\RestApp\RestApp.Services.Contract\bin\Debug\net7.0\RestApp.ReservationDto.pdb
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\RestApp.Services.Contract.csproj.AssemblyReference.cache
+D:\source\repos\RestApp\RestApp.Services.Contract\obj\Debug\net7.0\RestApp.Services.Contract.csproj.CopyComplete
