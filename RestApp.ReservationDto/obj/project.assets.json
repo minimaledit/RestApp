@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj",
+      "projectUniqueName": "D:\\asd\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj",
       "projectName": "RestApp.ReservationDto",
-      "projectPath": "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj",
+      "projectPath": "D:\\asd\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj",
       "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\obj\\",
+      "outputPath": "D:\\asd\\RestApp\\RestApp.ReservationDto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2TBWEK2PkYrTLY/d40coPA0wiCcv1nUO4naK0YJU9B1JnAkbb2nfUos7gQ2zxEwR0S/GSB/NHlM4U/ia+2E9+Q==",
+  "dgSpecHash": "7I1dbG17Fjectf8pz5SIJC9pqcCxcEdIs36W8eP4bOIMHgUiDyabX0S9OxR71kjLiPn4ssyAK9Tww8kXRsr4cg==",
   "success": true,
-  "projectFilePath": "D:\\source\\repos\\RestApp\\RestApp.Web\\RestApp.Web.csproj",
+  "projectFilePath": "D:\\asd\\RestApp\\RestApp.Web\\RestApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
     "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.13\\microsoft.aspnetcore.components.7.0.13.nupkg.sha512",

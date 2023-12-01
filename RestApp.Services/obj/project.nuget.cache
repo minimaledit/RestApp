@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "74tK48xQ8WZ6lwsdk77hiCjQzjmXJ5G7vxuOoPKM1Q0Pn8SOGWYNA6BtFKXDthrlZIwOzWxn7FiMfRpeZJWxTw==",
+  "dgSpecHash": "od1DLw0YDUy0xyiEu9LtV430xXJ2S/MtCJcvoPmxX7LFgBDgdjEwDJ6A70Fs5KFfj1QYNbtHWeycsRQUVpoCNg==",
   "success": true,
-  "projectFilePath": "D:\\source\\repos\\RestApp\\RestApp.Services\\RestApp.Services.csproj",
+  "projectFilePath": "D:\\asd\\RestApp\\RestApp.Services\\RestApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikita\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Nikita\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

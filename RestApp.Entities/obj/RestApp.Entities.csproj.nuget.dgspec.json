@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {}
+    "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {
+    "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj",
+        "projectUniqueName": "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj",
         "projectName": "RestApp.Entities",
-        "projectPath": "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj",
+        "projectPath": "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\RestApp\\RestApp.Entities\\obj\\",
+        "outputPath": "D:\\asd\\RestApp\\RestApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",

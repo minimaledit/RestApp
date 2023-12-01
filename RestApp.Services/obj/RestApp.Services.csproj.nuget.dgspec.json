@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\RestApp\\RestApp.Services\\RestApp.Services.csproj": {}
+    "D:\\asd\\RestApp\\RestApp.Services\\RestApp.Services.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj": {
+    "D:\\asd\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
+        "projectUniqueName": "D:\\asd\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
         "projectName": "RestApp.DataAccess",
-        "projectPath": "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
+        "projectPath": "D:\\asd\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\obj\\",
+        "outputPath": "D:\\asd\\RestApp\\RestApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {
-                "projectPath": "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj"
+              "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {
+                "projectPath": "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {
+    "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj",
+        "projectUniqueName": "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj",
         "projectName": "RestApp.Entities",
-        "projectPath": "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj",
+        "projectPath": "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\RestApp\\RestApp.Entities\\obj\\",
+        "outputPath": "D:\\asd\\RestApp\\RestApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -134,14 +134,14 @@
         }
       }
     },
-    "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj": {
+    "D:\\asd\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj",
+        "projectUniqueName": "D:\\asd\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj",
         "projectName": "RestApp.ReservationDto",
-        "projectPath": "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj",
+        "projectPath": "D:\\asd\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\obj\\",
+        "outputPath": "D:\\asd\\RestApp\\RestApp.ReservationDto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -189,14 +189,14 @@
         }
       }
     },
-    "D:\\source\\repos\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj": {
+    "D:\\asd\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj",
+        "projectUniqueName": "D:\\asd\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj",
         "projectName": "RestApp.Services.Contract",
-        "projectPath": "D:\\source\\repos\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj",
+        "projectPath": "D:\\asd\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\RestApp\\RestApp.Services.Contract\\obj\\",
+        "outputPath": "D:\\asd\\RestApp\\RestApp.Services.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,8 +213,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj": {
-                "projectPath": "D:\\source\\repos\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj"
+              "D:\\asd\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj": {
+                "projectPath": "D:\\asd\\RestApp\\RestApp.ReservationDto\\RestApp.ReservationDto.csproj"
               }
             }
           }
@@ -248,14 +248,14 @@
         }
       }
     },
-    "D:\\source\\repos\\RestApp\\RestApp.Services\\RestApp.Services.csproj": {
+    "D:\\asd\\RestApp\\RestApp.Services\\RestApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\RestApp\\RestApp.Services\\RestApp.Services.csproj",
+        "projectUniqueName": "D:\\asd\\RestApp\\RestApp.Services\\RestApp.Services.csproj",
         "projectName": "RestApp.Services",
-        "projectPath": "D:\\source\\repos\\RestApp\\RestApp.Services\\RestApp.Services.csproj",
+        "projectPath": "D:\\asd\\RestApp\\RestApp.Services\\RestApp.Services.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\RestApp\\RestApp.Services\\obj\\",
+        "outputPath": "D:\\asd\\RestApp\\RestApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -272,11 +272,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj": {
-                "projectPath": "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj"
+              "D:\\asd\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj": {
+                "projectPath": "D:\\asd\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj"
               },
-              "D:\\source\\repos\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj": {
-                "projectPath": "D:\\source\\repos\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj"
+              "D:\\asd\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj": {
+                "projectPath": "D:\\asd\\RestApp\\RestApp.Services.Contract\\RestApp.Services.Contract.csproj"
               }
             }
           }

@@ -2906,11 +2906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
+      "projectUniqueName": "D:\\asd\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
       "projectName": "RestApp.DataAccess",
-      "projectPath": "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
+      "projectPath": "D:\\asd\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\obj\\",
+      "outputPath": "D:\\asd\\RestApp\\RestApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2927,8 +2927,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {
-              "projectPath": "D:\\source\\repos\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj"
+            "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj": {
+              "projectPath": "D:\\asd\\RestApp\\RestApp.Entities\\RestApp.Entities.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VScy9iNPD8vWDcJ/0lPuTIzxDfVy9i8/8nSVhCnbQjkLWAksrz3lY+5R02wq2cWl2eizNBXmL2x52rmfAJaLeg==",
+  "dgSpecHash": "TDgB9t02vWmewfZ5QaJ1Rouzx5bM5Rqt5f9BpSi9R9u5RKlU341Xwfr5f8/ff3fcQzdMerIyWMcaNBfFPmvl6A==",
   "success": true,
-  "projectFilePath": "D:\\source\\repos\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
+  "projectFilePath": "D:\\asd\\RestApp\\RestApp.DataAccess\\RestApp.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikita\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Nikita\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
