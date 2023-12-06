@@ -7,12 +7,13 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Microsoft.AspNetCore.Authorization.dll": "sha256-rtkwhICTsYE9Dtvit4qmKukHxhcBii8IGbm5icnCWbM=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-Qv8HUc4bc7hrinChcgqA5WvNTVXrGrA7KqK+y9K08KM=",
+      "Microsoft.AspNetCore.Authorization.dll": "sha256-D1Cpv8dUhVhigWOZxMvQ0dgeOCRgaFoDpnRrjK\/cjRM=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-exYLeZNL1vFA3MQumWi+ZzcFWgY5X7qZZcnV1h6Ae9s=",
+      "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-DlERhcE7aUUyMFdHKZV1qCKMlb6Po2VRoER3fruuPNk=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-OBwQa9gr6aP+n\/xh7tnGjONUh7W1qym12VKXdPnpyUI=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-Gx0g1syHcH5YyRh+rs88++NwatlG0Ou51bQM\/+Frqj8=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-RIHL\/6PwsBDL0lyHHDfhPIxQbGmaVrZmZtBW08GfqHQ=",
-      "Microsoft.AspNetCore.Metadata.dll": "sha256-icfbQAYjnoXHBPRVr2IaSDv+w204xZlmwpb37PW5028=",
+      "Microsoft.AspNetCore.Metadata.dll": "sha256-buRnUKP2Y+yAMrKqT4KYoO4XIXWzcrFuuyI8SeadeTU=",
       "Microsoft.Extensions.Configuration.dll": "sha256-PqQvp77oZ4+uuy2ElXk8AU9I6RfZSf18UGTrd4rulOo=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-CnS3b9EMFQmETBUVEgtcron4DBsfFdcVt3zfCP6Uflg=",
       "Microsoft.Extensions.Configuration.Binder.dll": "sha256-7GY9+7Cm0Z8DJ+JCFwgCx9OfFtUvXlFHaaLlBYmXfIE=",
@@ -198,13 +199,13 @@
       "mscorlib.dll": "sha256-8OmdVHzoN7xteY5ehp0L8R17I9QxFkH2lUVHFuslE0s=",
       "netstandard.dll": "sha256-urq+e2ZQXxmOWMRxTR92529HnUVu6+kyVnfF6SoLad8=",
       "System.Private.CoreLib.dll": "sha256-ixnF\/wVKLHZM1N0lfJufpZ41EC2LvvyiSqdW43h3Xew=",
-      "RestApp.Web.dll": "sha256-LdOChVAjxCUcPw3G7Shl23IrdjcX+QCwy12CJeCiBp8="
+      "RestApp.Web.dll": "sha256-k0Jss1KTvhKDSwYw7nuWQGyXagDx4XPTULdOL3aBGAo="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "RestApp.Web.pdb": "sha256-Yr3d7dsc6XHPVtIL0QNsQKnAZjm64jxuMjg8IitmqRQ="
+      "RestApp.Web.pdb": "sha256-d3IBhyW4tSdi8OKNrdLvZv8vRrZQCy8WUxV0k3IzuCU="
     },
     "runtime": {
       "dotnet.7.0.12.5jrmvi7lmb.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC\/eMoHpqRc+4=",

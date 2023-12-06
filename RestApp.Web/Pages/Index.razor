@@ -1,4 +1,13 @@
 ﻿@page "/"
+<h1>Authentication Blazor Demo</h1>
 
+<AuthorizeView>
+    <Authorized>
+        Welcome @context.User.Identity.Name
+    </Authorized>
+    <NotAuthorized>
+        You are not authorizzed. Go to <a href="/login">Log in</a>
+    </NotAuthorized>
+</AuthorizeView>
 
 @*checkcommit*@

@@ -20,8 +20,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/asd/RestApp/RestApp.Web/Components/RedirectToLoginComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWRpcmVjdFRvTG9naW5Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/asd/RestApp/RestApp.Web/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/asd/RestApp/RestApp.Web/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/asd/RestApp/RestApp.Web/Pages/Logoff.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb2ZmLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/asd/RestApp/RestApp.Web/Pages/Temp.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVtcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/asd/RestApp/RestApp.Web/Shared/SurveyPrompt.razor]

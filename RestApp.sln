@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApp.Services.Contract",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApp.ReservationDto", "RestApp.ReservationDto\RestApp.ReservationDto.csproj", "{3E7D4714-F720-4F48-B20A-E54269BDD8A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApp.Web", "RestApp.Web\RestApp.Web.csproj", "{05039FBE-C03A-401C-8B45-D6F8A8F8075E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApp.Web", "RestApp.Web\RestApp.Web.csproj", "{05039FBE-C03A-401C-8B45-D6F8A8F8075E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
