@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApp.Services.Contract",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApp.ReservationDto", "RestApp.ReservationDto\RestApp.ReservationDto.csproj", "{3E7D4714-F720-4F48-B20A-E54269BDD8A6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApp.Web", "RestApp.Web\RestApp.Web.csproj", "{05039FBE-C03A-401C-8B45-D6F8A8F8075E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApp.Web", "RestApp.Web\RestApp.Web.csproj", "{65981A24-6FD8-4D47-A1B2-0649FAB8F424}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{3E7D4714-F720-4F48-B20A-E54269BDD8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E7D4714-F720-4F48-B20A-E54269BDD8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E7D4714-F720-4F48-B20A-E54269BDD8A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05039FBE-C03A-401C-8B45-D6F8A8F8075E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05039FBE-C03A-401C-8B45-D6F8A8F8075E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05039FBE-C03A-401C-8B45-D6F8A8F8075E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05039FBE-C03A-401C-8B45-D6F8A8F8075E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65981A24-6FD8-4D47-A1B2-0649FAB8F424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65981A24-6FD8-4D47-A1B2-0649FAB8F424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65981A24-6FD8-4D47-A1B2-0649FAB8F424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65981A24-6FD8-4D47-A1B2-0649FAB8F424}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -300,3 +300,4 @@ D:\asd\RestApp\RestApp\obj\Debug\net7.0\refint\RestApp.dll
 D:\asd\RestApp\RestApp\obj\Debug\net7.0\RestApp.pdb
 D:\asd\RestApp\RestApp\obj\Debug\net7.0\RestApp.genruntimeconfig.cache
 D:\asd\RestApp\RestApp\obj\Debug\net7.0\ref\RestApp.dll
+D:\asd\RestApp\RestApp\bin\Debug\net7.0\RestApp.staticwebassets.runtime.json

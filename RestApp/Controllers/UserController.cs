@@ -1,61 +1,55 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RestApp.Services.Contract;
 using RestApp.ReservationDto;
+using RestApp.Services.Contract;
 
-namespace RestApp.Controllers
+[ApiController]
+[Route("api/RestApp/User")]
+public class UserController : ControllerBase
 {
-    [ApiController]
-    [Route("api/RestApp/User")]
-    
-    public class UserController : ControllerBase
+    private readonly IUserService _userService;
+
+    public UserController(IUserService userService)
     {
-        public readonly IUserService _userSevice;
+        _userService = userService;
+    }
 
-        public UserController(IUserService userSevice)
-        {
-            _userSevice = userSevice;
-        }
+    // GET: api/RestApp/User/Users
+    [HttpGet("Users")]
+    public async Task<ActionResult<List<UserDto>>> GetUsers()
+    {
+        var users = await _userService.GetAll();
+        return Ok(users);
+    }
 
+    // GET: api/RestApp/User/GETBYid/{id}
+    [HttpGet("GETBYid/{id}")]
+    public async Task<ActionResult<UserDto>> GetUser(int id)
+    {
+        var user = await _userService.GetById(id);
+        return user != null ? Ok(user) : NotFound();
+    }
 
+    // POST: api/RestApp/User
+    [HttpPost]
+    public async Task<ActionResult<UserDto>> CreateUser([FromBody] UserDto userDto)
+    {
+        var createdUser = await _userService.Create(userDto);
+        return Ok(createdUser);
+    }
 
-        // GET: api/User
-        [HttpGet("Users")]
-        public async Task<ActionResult<List<UserDto>>> GetUsers()
-        {
-            var Users = await _userSevice.GetAll();
-            return Ok(Users);
-        }
+    // PUT: api/RestApp/User
+    [HttpPut]
+    public async Task<IActionResult> UpdateUser([FromBody] UserDto userDto)
+    {
+        var updatedUser = await _userService.Update(userDto);
+        return updatedUser != null ? Ok(updatedUser) : NotFound();
+    }
 
-        // GET: api/User/5
-        [HttpGet("GETBYid{id}")]
-        public async Task<ActionResult<UserDto>> GetUser(int id)
-        {
-            return await _userSevice.GetById(id);
-        }
-
-        // POST: api/User
-        [HttpPost]
-        public async Task<ActionResult<int>> CreateUser([FromBody] UserDto userDto)
-        {
-            return await _userSevice.Create(userDto);
-        }
-
-        // PUT: api/User/5
-        [HttpPut("Update")]
-        public async Task<IActionResult> UpdateUser([FromBody] UserDto userDto)
-        {
-            var updateUserDto = await _userSevice.Update(userDto);
-            if (updateUserDto == null) { return NotFound(); }
-            return Ok(updateUserDto);
-        }
-
-        // DELETE: api/User/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
-        {
-            var result = await _userSevice.Delete(id);
-            if (!result) { return NotFound(); }
-            return Ok(result);
-        }
+    // DELETE: api/RestApp/User/{id}
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteUser(int id)
+    {
+        var result = await _userService.Delete(id);
+        return result ? Ok(result) : NotFound();
     }
 }

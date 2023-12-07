@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWRpcmVjdFRvTG9naW5Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/asd/RestApp/RestApp.Web/Pages/AllUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/asd/RestApp/RestApp.Web/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -8,6 +8,7 @@ namespace RestApp.DataAccess
     {
         public RestDbContext(DbContextOptions<RestDbContext> options) : base(options) 
         { 
+
         }
 
         public DbSet<Restaurant> Restaurants { get; set; }
@@ -18,6 +19,7 @@ namespace RestApp.DataAccess
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new ReservationConfiguration());
             modelBuilder.ApplyConfiguration(new ReviewConfiguration());
             modelBuilder.ApplyConfiguration(new TableConfiguration());
