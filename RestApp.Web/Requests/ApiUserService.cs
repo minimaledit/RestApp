@@ -1,4 +1,5 @@
-﻿using RestApp.ReservationDto;
+﻿using Azure;
+using RestApp.ReservationDto;
 using RestApp.Services.Contract;
 using System.Net.Http.Json;
 
@@ -15,7 +16,7 @@ namespace RestApp.Web.Requests
         }
         public async Task<int> Create(UserDto user)
         {
-            var response = await _httpClient.PostAsJsonAsync("User", user);
+            var response = await _httpClient.PostAsJsonAsync("api/RestApp/User/Create", user);
             return response.IsSuccessStatusCode ? await response.Content.ReadFromJsonAsync<int>() : throw new HttpRequestException("Couldn't create the user object");
         }
         
@@ -26,6 +27,12 @@ namespace RestApp.Web.Requests
             return response ?? throw new HttpRequestException($"Couldn't get user with id {id}");
         }
 
+        public async Task<UserDto> GetByEmail(string email)
+        {
+            var response = await _httpClient.GetFromJsonAsync<UserDto>($"api/RestApp/User/GETBYemail/{email}");
+            if (response != null) { return response; }
+            else throw new HttpRequestException("Couldn't get users");
+        }
         public async Task<List<UserDto>> GetAll()
         {
             var response = await _httpClient.GetFromJsonAsync<List<UserDto>>($"api/RestApp/User/Users");

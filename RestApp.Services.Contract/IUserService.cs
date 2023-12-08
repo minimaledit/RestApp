@@ -9,5 +9,6 @@ namespace RestApp.Services.Contract
         Task<int> Create(UserDto userDto);
         Task<UserDto> Update(UserDto userDto);
         Task<bool> Delete(int id);
+        Task<UserDto> GetByEmail(string email);
     }
 }

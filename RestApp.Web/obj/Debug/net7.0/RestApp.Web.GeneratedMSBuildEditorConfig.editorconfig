@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb2ZmLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/asd/RestApp/RestApp.Web/Pages/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/asd/RestApp/RestApp.Web/Pages/Temp.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVtcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

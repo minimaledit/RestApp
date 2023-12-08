@@ -45,7 +45,11 @@ namespace RestApp.Services
             var user = await _userRepository.GetById(id);
             return _mapper.Map<UserDto>(user);
         }
-
+        public async Task<UserDto> GetByEmail(string email)
+        {
+            var user = await _userRepository.GetByEmail(email);
+            return _mapper.Map<UserDto>(user);
+        }
         public async Task<UserDto> Update(UserDto userDto)
         {
             var userToUpd = await _userRepository.GetById(userDto.Id);

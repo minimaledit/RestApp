@@ -29,8 +29,16 @@ public class UserController : ControllerBase
         return user != null ? Ok(user) : NotFound();
     }
 
+    // GET: api/RestApp/User/GETBYemail
+    [HttpGet("GETBYemail/{email}")]
+    public async Task<ActionResult<UserDto>> GetByEmai(string email)
+    {
+        var user = await _userService.GetByEmail(email);
+        return user != null ? Ok(user) : NotFound(null);
+    }
+
     // POST: api/RestApp/User
-    [HttpPost]
+    [HttpPost("Create")]
     public async Task<ActionResult<UserDto>> CreateUser([FromBody] UserDto userDto)
     {
         var createdUser = await _userService.Create(userDto);

@@ -9,6 +9,6 @@ namespace RestApp.DataAccess.Repository.Contacts
         Task<int> Create(User user);
         Task Update(User user);
         Task Delete(User user);
-
+        Task<User> GetByEmail(string email);
     }
 }

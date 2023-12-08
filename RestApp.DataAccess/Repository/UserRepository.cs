@@ -37,7 +37,10 @@ namespace RestApp.DataAccess.Repository
         {
             return await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
         }
-
+        public async Task<User> GetByEmail(string email)
+        {
+            return await _context.Users.FirstOrDefaultAsync(x => x.Email == email);
+        }
         public async Task Update(User user)
         {
             _context.Users.Update(user);
