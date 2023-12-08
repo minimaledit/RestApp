@@ -237,7 +237,7 @@
       "System.Private.CoreLib.dll": "sha256-ixnF\/wVKLHZM1N0lfJufpZ41EC2LvvyiSqdW43h3Xew=",
       "RestApp.ReservationDto.dll": "sha256-oJYNdUMD0rdRD9D1rEUyKDO7lDMqFopHJytctI9HuT8=",
       "RestApp.Services.Contract.dll": "sha256-tOqUbiu2LSkjaIC3hBiSVBn13PGu0QGf28iFpdEBkwQ=",
-      "RestApp.Web.dll": "sha256-0BSrWVza9ISNxB5wxbrk7Khm\/T06D0HTacdzUCK8T9Q="
+      "RestApp.Web.dll": "sha256-TSYHASJ7TdJK01Ax9ejlyAlDIgvdDPZ3KqtilIv9bSU="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -245,7 +245,7 @@
     "pdb": {
       "RestApp.Services.Contract.pdb": "sha256-aYvM8feomQn9qK3d2ZcW4m3Zpbfg2pe4xH9zp6gwm0c=",
       "RestApp.ReservationDto.pdb": "sha256-UHYSNShGP4wjE3K7Fu+HWUsCiCXpLNnF0FbCN7nAO4c=",
-      "RestApp.Web.pdb": "sha256-DJqGjp6\/nhfg7XAFpMGTqzNq+9s+x6V85kGPx7mrHAA="
+      "RestApp.Web.pdb": "sha256-j01W3xeleoyO1+r1pHtwiacpKARPsSV+EBa5bPVXmwY="
     },
     "runtime": {
       "dotnet.7.0.12.5jrmvi7lmb.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC\/eMoHpqRc+4=",

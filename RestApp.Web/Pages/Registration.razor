@@ -6,8 +6,12 @@
 @using System.Net.Http;
 @using BlazorAuthentification1;
 @inject IUserService _userservice
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
 <AuthorizeView>
     <Authorized>
+        
     </Authorized>
     <NotAuthorized>    
 <MudGrid>
