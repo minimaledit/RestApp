@@ -33,6 +33,7 @@ namespace BlazorAuthentification1
             builder.Services.AddScoped<ILocalStorageService, LocalStorageService>();
             builder.Services.AddScoped<IUserService, ApiUserService>();
 
+            builder.Services.AddScoped<IRestaurantService, ApiRestaurantService>();
 
             builder.Services.AddMudServices();
 

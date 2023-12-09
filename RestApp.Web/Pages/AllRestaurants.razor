@@ -1,0 +1,39 @@
+﻿@page "/restaurants"
+@using MudBlazor
+@using RestApp.Services.Contract;
+@using RestApp.ReservationDto;
+@using Microsoft.AspNetCore.Authorization
+@inject AuthenticationStateProvider Provider
+
+@inject IRestaurantService _restaurantService;
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<PageTitle>Index</PageTitle>
+
+<MudTable Context="tcontext" Items="@restaurants" Hover="true" Breakpoint="Breakpoint.Sm">
+        <HeaderContent>
+            <MudTh>Id</MudTh>
+            <MudTh>Name</MudTh>
+            <MudTh>Address</MudTh>
+            <MudTh>Contact</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+             <MudTd>@tcontext.Id</MudTd>
+             <MudTd>@tcontext.Name</MudTd>
+            <MudTd>@tcontext.Address</MudTd>
+            <MudTd>@tcontext.Contact</MudTd>
+        </RowTemplate>
+</MudTable>
+
+
+
+@code {
+    private List<RestaurantDto>? restaurants;
+    protected async override Task OnInitializedAsync()
+    {
+        restaurants = await _restaurantService.GetAll();
+    }
+
+}

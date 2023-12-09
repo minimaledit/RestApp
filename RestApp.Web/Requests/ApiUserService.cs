@@ -23,7 +23,7 @@ namespace RestApp.Web.Requests
         public async Task<UserDto> GetById(int id)
         {
 
-            var response = await _httpClient.GetFromJsonAsync<UserDto>($"User/{id}");
+            var response = await _httpClient.GetFromJsonAsync<UserDto>($"api/RestApp/User/GETBYid{id}");
             return response ?? throw new HttpRequestException($"Couldn't get user with id {id}");
         }
 
@@ -41,13 +41,13 @@ namespace RestApp.Web.Requests
 
         public async Task<bool> Delete(int id)
         {
-            var response = await _httpClient.DeleteAsync($"User/{id}");
+            var response = await _httpClient.DeleteAsync($"api/RestApp/User/Delete{id}");
             return response.IsSuccessStatusCode;
         }
 
         public async Task<UserDto> Update(UserDto user)
         {
-            var response = await _httpClient.PutAsJsonAsync($"User/{user.Id}", user);
+            var response = await _httpClient.PutAsJsonAsync($"api/RestApp/User/Put", user);
 
             if (response.IsSuccessStatusCode)
             {

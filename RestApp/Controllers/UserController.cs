@@ -37,7 +37,7 @@ public class UserController : ControllerBase
         return user != null ? Ok(user) : NotFound(null);
     }
 
-    // POST: api/RestApp/User
+    // POST: api/RestApp/User/Create
     [HttpPost("Create")]
     public async Task<ActionResult<UserDto>> CreateUser([FromBody] UserDto userDto)
     {
@@ -45,16 +45,16 @@ public class UserController : ControllerBase
         return Ok(createdUser);
     }
 
-    // PUT: api/RestApp/User
-    [HttpPut]
+    // PUT: api/RestApp/User/Put
+    [HttpPut("Put")]
     public async Task<IActionResult> UpdateUser([FromBody] UserDto userDto)
     {
         var updatedUser = await _userService.Update(userDto);
         return updatedUser != null ? Ok(updatedUser) : NotFound();
     }
 
-    // DELETE: api/RestApp/User/{id}
-    [HttpDelete("{id}")]
+    // DELETE: api/RestApp/User/Delete{id}
+    [HttpDelete("Delete{id}")]
     public async Task<IActionResult> DeleteUser(int id)
     {
         var result = await _userService.Delete(id);
