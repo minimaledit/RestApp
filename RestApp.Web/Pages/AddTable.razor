@@ -1,0 +1,71 @@
+﻿@page "/addtable"
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using RestApp.ReservationDto;
+@using RestApp.Services.Contract;
+@using System.Net.Http;
+@using BlazorAuthentification1;
+@inject ITableService _tableservice
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<AuthorizeView>
+    <Authorized>
+        <MudGrid>
+            <MudItem xs="12" sm="7">
+                <MudPaper Class="pa-4">
+                    <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+                        <MudTextField T="int" Label="Number" @bind-Value="number" Required="true" RequiredError="Number is required!" />
+                        <MudTextField T="int" Label="Capacity" @bind-Value="capacity" Required="true" RequiredError="Capacity is required!" />
+                        <MudTextField T="int" Label="RestId" @bind-Value="restId" Required="true" RequiredError="RestId is required!" />
+                        <MudTextField T="bool" Label="IsReserved" @bind-Value="isReserved" Required="true" RequiredError="IsReserved is required!" />
+                        <div class="d-flex align-center justify-space-between">
+                            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@register" Disabled="@(!success)" Class="ml-auto">Add</MudButton>
+                        </div>
+                    </MudForm>
+                </MudPaper>
+                <MudPaper Class="pa-4 mt-4">
+                    <MudButton Variant="Variant.Filled" Color="Color.Secondary" DisableElevation="true" OnClick="@(()=>form.ResetAsync())" Class="mx-2">Reset</MudButton>
+                </MudPaper>
+            </MudItem>
+            <MudItem xs="12" sm="5">
+                <MudPaper Class="pa-4 mud-height-full">
+                    <MudText Typo="Typo.subtitle2">@($"Errors ({errors.Length})")</MudText>
+                        @foreach (var error in errors)
+                    {
+                        <MudText Color="@Color.Error">@error</MudText>
+                    }
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+    </Authorized>
+    <NotAuthorized>
+        
+    </NotAuthorized>
+</AuthorizeView>
+@code {
+    [Inject] public NavigationManager NavigationManager { get; set; }
+    bool success;
+    string[] errors = { };
+    MudTextField<string> pwField1;
+    MudForm form;
+    int number;
+    int capacity;
+    int restId;
+    bool isReserved;
+
+    async Task register()
+    {
+        var tableToCreate = new TableDto
+            {
+                Number = number,
+                Capacity = capacity,
+                RestaurantId = restId,
+                IsReserved = isReserved
+        };
+        _tableservice.Create(tableToCreate);
+        
+
+    }
+
+}

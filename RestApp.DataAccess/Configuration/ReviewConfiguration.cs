@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using RestApp.Entities;
-using System.Reflection.Metadata;
 
 namespace RestApp.DataAccess.Configuration
 {

@@ -8,6 +8,5 @@
         public string Contact { get; set; }
         public List<Table> Tables { get; set; }
         public List<Review> Reviews { get; set; }
-
     }
 }

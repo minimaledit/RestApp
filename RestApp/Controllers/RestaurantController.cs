@@ -45,6 +45,8 @@ public class RestaurantController : ControllerBase
         return Ok(createdRestaurant);
     }
 
+
+
     // PUT
     [HttpPut("Put")]
     public async Task<IActionResult> UpdateRestaurant([FromBody] RestaurantDto restaurantDto)
@@ -59,5 +61,12 @@ public class RestaurantController : ControllerBase
     {
         var result = await _restaurantService.Delete(id);
         return result ? Ok(result) : NotFound();
+    }
+    [HttpGet("GetTables/{restaurantId}")]
+    [ProducesResponseType(typeof(List<TableDto>), 200)]
+    public async Task<ActionResult<List<TableDto>>> GetTablesForRestaurant(int restaurantId)
+    {
+        var tables = await _restaurantService.GetTablesForRestaurant(restaurantId);
+        return Ok(tables);
     }
 }

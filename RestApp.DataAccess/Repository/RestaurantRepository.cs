@@ -45,5 +45,12 @@ namespace RestApp.DataAccess.Repository
             _context.Restaurants.Update(restaurant);
             await _context.SaveChangesAsync();
         }
+        public async Task<List<Table>> GetTablesForRestaurant(int restaurantId)
+        {
+            var restaurant = await _context.Restaurants.Include(r => r.Tables)
+                                                        .FirstOrDefaultAsync(x => x.Id == restaurantId);
+
+            return restaurant?.Tables;
+        }
     }
 }

@@ -15,5 +15,6 @@ namespace RestApp.DataAccess.Repository.Contacts
         Task Update(Restaurant restaurant);
         Task Delete(Restaurant restaurant);
         Task<Restaurant> GetByName(string name);
+        Task<List<Table>> GetTablesForRestaurant(int restaurantId);
     }
 }

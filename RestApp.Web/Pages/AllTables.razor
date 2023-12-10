@@ -1,0 +1,41 @@
+﻿@page "/tables"
+@using MudBlazor
+@using RestApp.Services.Contract;
+@using RestApp.ReservationDto;
+@using Microsoft.AspNetCore.Authorization
+@inject AuthenticationStateProvider Provider
+
+@inject ITableService _tableService;
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<PageTitle>Index</PageTitle>
+
+<MudTable Context="tcontext" Items="@tables" Hover="true" Breakpoint="Breakpoint.Sm">
+    <HeaderContent>
+        <MudTh>Id</MudTh>
+        <MudTh>Number</MudTh>
+        <MudTh>Capacity</MudTh>
+        <MudTh>RestaurantId</MudTh>
+        <MudTh>IsReserved</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd>@tcontext.Id</MudTd>
+        <MudTd>@tcontext.Number</MudTd>
+        <MudTd>@tcontext.Capacity</MudTd>
+        <MudTd>@tcontext.RestaurantId</MudTd>
+        <MudTd>@tcontext.IsReserved</MudTd>
+    </RowTemplate>
+</MudTable>
+
+
+
+@code {
+    private List<TableDto>? tables;
+    protected async override Task OnInitializedAsync()
+    {
+        tables = await _tableService.GetAll();
+    }
+
+}

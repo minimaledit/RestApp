@@ -35,6 +35,8 @@ namespace BlazorAuthentification1
 
             builder.Services.AddScoped<IRestaurantService, ApiRestaurantService>();
 
+            builder.Services.AddScoped<ITableService, ApiTableService>();
+
             builder.Services.AddMudServices();
 
             await builder.Build().RunAsync();

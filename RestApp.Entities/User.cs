@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RestApp.Entities
+﻿namespace RestApp.Entities
 {
     public class User
     {
@@ -14,6 +8,5 @@ namespace RestApp.Entities
         public string Password { get; set; }
         public List<Review> Reviews { get; set; }
         public List<Reservation> Reservations { get; set; }
-
     }
 }

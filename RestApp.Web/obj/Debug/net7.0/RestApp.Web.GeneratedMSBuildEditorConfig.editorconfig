@@ -24,8 +24,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWRpcmVjdFRvTG9naW5Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/asd/RestApp/RestApp.Web/Pages/AddTable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/asd/RestApp/RestApp.Web/Pages/AllRestaurants.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsUmVzdGF1cmFudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/asd/RestApp/RestApp.Web/Pages/AllTables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsVGFibGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/asd/RestApp/RestApp.Web/Pages/AllUsers.razor]

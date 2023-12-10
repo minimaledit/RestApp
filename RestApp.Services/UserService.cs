@@ -10,19 +10,16 @@ namespace RestApp.Services
     {
         public readonly IUserRepository _userRepository;
         public readonly IMapper _mapper;
-
         public UserService(IUserRepository userRepository, IMapper mapper)
         {
             _userRepository = userRepository;
             _mapper = mapper;
         }
-
         public async Task<int> Create(UserDto userDto)
         {
             var userToAdd = _mapper.Map<User>(userDto);
             return await _userRepository.Create(userToAdd);
         }
-
         public async Task<bool> Delete(int id)
         {
             var userToDel = await _userRepository.GetById(id);
@@ -33,13 +30,11 @@ namespace RestApp.Services
             await _userRepository.Delete(userToDel);
             return true;
         }
-
         public async Task<List<UserDto>> GetAll()
         {
             var Users = await _userRepository.GetAll();
             return _mapper.Map<List<UserDto>>(Users);
         }
-
         public async Task<UserDto> GetById(int id)
         {
             var user = await _userRepository.GetById(id);

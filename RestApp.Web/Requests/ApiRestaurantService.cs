@@ -58,5 +58,10 @@ namespace RestApp.Web.Requests
                 throw new HttpRequestException($"Couldn't update restaurant with id {restaurant.Id}");
             }
         }
+        public async Task<List<TableDto>> GetTablesForRestaurant(int restaurantId)
+        {
+            var response = await _httpClient.GetFromJsonAsync<List<TableDto>>($"api/RestApp/Restaurant/GetTables/{restaurantId}");
+            return response ?? throw new HttpRequestException($"Couldn't get tables for restaurant with id {restaurantId}");
+        }
     }
 }

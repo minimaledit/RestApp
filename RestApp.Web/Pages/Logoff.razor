@@ -7,7 +7,6 @@
     protected override void OnInitialized()
     {
         ((TokenAuthenticationStateProvider) Provider).MakeUserAnonymous();
-
         NavigationManager.NavigateTo("/");
     }
 }

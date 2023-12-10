@@ -10,6 +10,8 @@ namespace RestApp.Mappings
         {
             CreateMap<Restaurant, RestaurantDto>().ReverseMap();
             CreateMap<Restaurant, CreateRestaurantDto>().ReverseMap();
+            CreateMap<Table, TableDto>().ReverseMap();
+            CreateMap<Table, CreateTableDto>().ReverseMap();
         }
     }
 }

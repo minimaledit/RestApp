@@ -11,5 +11,4 @@
         public User User { get; set; }
         public Table Table { get; set; }
     }
-
 }

@@ -84,13 +84,11 @@
     }
     async Task register()
     {
-
         var userToCreate = new UserDto { 
             Name = user_name,
             Email = emailadress,
             Password = passwrd
         };
-
         try
         {
             var ifexist = await _userservice.GetByEmail(emailadress);
@@ -100,7 +98,6 @@
         {
             _userservice.Create(userToCreate);
             NavigationManager.NavigateTo("/", true);
-        }
-         
+        } 
     }
 }

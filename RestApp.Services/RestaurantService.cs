@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using RestApp.DataAccess.Repository;
 using RestApp.DataAccess.Repository.Contacts;
 using RestApp.Entities;
@@ -59,5 +60,17 @@ namespace RestApp.Services
             await _restaurantRepository.Update(restaurantToUpd);
             return _mapper.Map<RestaurantDto>(restaurantToUpd);
         }
+        public async Task<List<TableDto>> GetTablesForRestaurant(int restaurantId)
+        {
+            var restaurant = await _restaurantRepository.GetById(restaurantId);
+            if (restaurant != null)
+            {
+                var tableDtos = _mapper.Map<List<TableDto>>(restaurant.Tables);
+                return tableDtos;
+            }
+
+            return null; // Или пустой список, в зависимости от вашего подхода
+        }
+
     }
 }

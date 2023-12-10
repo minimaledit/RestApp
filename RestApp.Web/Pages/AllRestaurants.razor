@@ -13,18 +13,18 @@
 <PageTitle>Index</PageTitle>
 
 <MudTable Context="tcontext" Items="@restaurants" Hover="true" Breakpoint="Breakpoint.Sm">
-        <HeaderContent>
-            <MudTh>Id</MudTh>
-            <MudTh>Name</MudTh>
-            <MudTh>Address</MudTh>
-            <MudTh>Contact</MudTh>
-        </HeaderContent>
-        <RowTemplate>
-             <MudTd>@tcontext.Id</MudTd>
-             <MudTd>@tcontext.Name</MudTd>
-            <MudTd>@tcontext.Address</MudTd>
-            <MudTd>@tcontext.Contact</MudTd>
-        </RowTemplate>
+    <HeaderContent>
+        <MudTh>Id</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Address</MudTh>
+        <MudTh>Contact</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd>@tcontext.Id</MudTd>
+        <MudTd>@tcontext.Name</MudTd>
+        <MudTd>@tcontext.Address</MudTd>
+        <MudTd>@tcontext.Contact</MudTd>
+    </RowTemplate>
 </MudTable>
 
 

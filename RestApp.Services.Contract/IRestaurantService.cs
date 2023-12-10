@@ -10,5 +10,6 @@ namespace RestApp.Services.Contract
         Task<RestaurantDto> Update(RestaurantDto restaurantDto);
         Task<bool> Delete(int id);
         Task<RestaurantDto> GetByName(string name);
+        Task<List<TableDto>> GetTablesForRestaurant(int restaurantId);
     }
 }
